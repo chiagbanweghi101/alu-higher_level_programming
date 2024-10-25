@@ -5,6 +5,5 @@ def uppercase(str):
         if ord(char) >= 97 and ord(char) <= 122:  # Check if char is lowercase
             result += chr(ord(char) - 32)  # Convert to uppercase
         else:
-            result += char  # Keep other characters unchanged
-
-    print("The result is: " + result)  # Print uppercase string
+            result += char  # Keep other characters unchange
+            print("{}".format(result))  # Print uppercase string
